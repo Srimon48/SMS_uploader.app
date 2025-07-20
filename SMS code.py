@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 # File path for the Base Table
-BASE_TABLE_PATH = r"C:\Users\Administrator\Desktop\SMS Coding\Base table.xlsx"
+BASE_TABLE_PATH = r"Base table.xlsx"
 
 # Cache base table to avoid reloading
 @st.cache_data
