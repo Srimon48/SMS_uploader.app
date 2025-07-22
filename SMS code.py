@@ -19,8 +19,8 @@ def get_uploaded_data(key, file, base_table):
     df = df[list(column_map.keys())].rename(columns=column_map)
     dedup_col = {
         'Slab data': 'Slab ID 2',
-        'Caster level 2': 'Slab ID 1',
-        'EMS': 'Slab ID 3',
+        'Caster level 2': 'Slab cut time 1',
+        'EMS': 'Slab cut time 3',
         'RHD Complete': 'Heat ID 4',
     }.get(key)
     if dedup_col:
